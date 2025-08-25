@@ -20,3 +20,18 @@ The API compares the given word against a master list of inappropriate words and
 ### `GET /check-word?word=<your_word>`
 
 #### Example Request
+GET http://localhost:8080/check-word?word=apple
+#### Example Response
+```json
+{
+  "Word": "apple",
+  "isSafeForKids": true
+}
+
+#### Example Request
+GET http://localhost:8080/check-word?word=curse
+#### Example Response
+{
+  "Word": "curse",
+  "isSafeForKids": false
+}
