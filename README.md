@@ -27,11 +27,13 @@ GET http://localhost:8080/check-word?word=apple
   "Word": "apple",
   "isSafeForKids": true
 }
-
+```
 #### Example Request
 GET http://localhost:8080/check-word?word=curse
 #### Example Response
+```
 {
   "Word": "curse",
   "isSafeForKids": false
 }
+```
