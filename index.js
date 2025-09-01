@@ -5,7 +5,7 @@ const fs = require('fs');
 var cors = require('cors')
 const path = require('path');
 
-app.use(cors())
+app.use(cors({ origin: false }));
 
 
 // Load bad words into an array
