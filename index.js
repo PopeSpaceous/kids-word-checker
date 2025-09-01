@@ -2,7 +2,11 @@ const express = require('express');
 const app = express();
 const port = 8080; // Choose any port you prefer
 const fs = require('fs');
+var cors = require('cors')
 const path = require('path');
+
+app.use(cors())
+
 
 // Load bad words into an array
 const badWordsPath = path.join(__dirname, 'badWords.txt');
