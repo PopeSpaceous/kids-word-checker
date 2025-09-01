@@ -9,6 +9,7 @@
   "author": "Nathan Misener",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "http-server": "^14.1.1"
   }
